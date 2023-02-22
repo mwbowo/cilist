@@ -7,7 +7,7 @@ Simple CRUD app built with MySQL, ExpressJS, React, & Node.
 
 `Frontend    : localhost:3000`
 
-# Setup
+#Setup
 
 ## Database
 First you need to create database & user in MySQL in order to connect `Backend` to `Database`.

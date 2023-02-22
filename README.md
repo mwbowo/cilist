@@ -72,7 +72,7 @@ npm start
 
 # Credit
 
-All credit goes to [M. Fikri](https://www.youtube.com/watch?v=es9_6RFR7wk&t=3336s) as creator of this app.
+All credit goes to [M.WIBOWO](https://www.youtube.com/watch?v=es9_6RFR7wk&t=3336s) as creator of this app.
 
 App used:
 

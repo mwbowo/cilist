@@ -3,10 +3,10 @@ version: '3.8'
 services:
   database:
     container_name: cilist-db
-    image: mwbowo/cilist-db:${GIT_COMMIT_SHORT}
+    image: mwbowo/cilist-db:latest
 
   backend:
-    image: mwbowo/cilist-be:${GIT_COMMIT_SHORT}
+    image: mwbowo/cilist-be:latest
     ports:
       - "5000:5000"
     depends_on:
@@ -21,7 +21,7 @@ services:
       - DATABASE_PORT=3306
   
   frontend:
-    image: mwbowo/cilist-fe:${GIT_COMMIT_SHORT}
+    image: mwbowo/cilist-fe:latest
     ports:
       - "3000:3000"
     environment:

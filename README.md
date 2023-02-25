@@ -1,4 +1,4 @@
-# Cilist 20
+# Cilist MiniProject8
 Simple CRUD app built with MySQL, ExpressJS, React, & Node.
 
 `Database    : MySQL`

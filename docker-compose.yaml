@@ -6,6 +6,7 @@ services:
     image: mwbowo/cilist-db:latest
 
   backend:
+    container_name: cilist-be
     image: mwbowo/cilist-be:latest
     ports:
       - "5000:5000"
@@ -21,6 +22,7 @@ services:
       - DATABASE_PORT=3306
   
   frontend:
+    container_name: cilist-fe
     image: mwbowo/cilist-fe:latest
     ports:
       - "3000:3000"
